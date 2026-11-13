@@ -165,16 +165,6 @@ source emotion_env.bash
 python3 src/turtlebot4_emotion/test/check_gazebo.py
 ```
 
-Kết quả ngày **13/11/2026**: **30 kiểm thử logic**, **24/24 kiểm tra
-ROS/Gazebo**, **8/8 kiểm tra suy luận** thành công. Odometry ghi nhận lùi
-khoảng 12.7 cm, tiến 20.8 cm và quay khoảng 359°. Đã kiểm tra luồng webcam,
-hiển thị trực tiếp, dừng khi mất dữ liệu và kết thúc sạch bằng Ctrl+C.
-
-Các kiểm tra suy luận gồm ảnh không có mặt, một mặt, hai mặt và webcam.
-**Chưa đánh giá độ chính xác cả sáu biểu cảm bằng bộ thử người dùng có nhãn;
-chưa kiểm chứng chuyển động trên TurtleBot thật.** Điểm số mô hình không
-phải xác suất đúng đã hiệu chuẩn và nhãn biểu cảm không xác nhận trạng thái
-cảm xúc bên trong của người dùng.
 
 ## Xử lý lỗi thường gặp
 
