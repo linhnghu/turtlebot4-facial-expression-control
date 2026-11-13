@@ -1,0 +1,27 @@
+{
+  "detections": 37,
+  "statuses": 257,
+  "nonzero_velocity": 0,
+  "last_detection": {
+    "emotion": "neutral",
+    "confidence": 0.9345908761024475,
+    "faces": 1,
+    "captured_at": 1977.32127699,
+    "region": {
+      "x": 294,
+      "y": 246,
+      "w": 153,
+      "h": 153
+    }
+  },
+  "last_status": {
+    "action": null,
+    "reason": "neutral",
+    "linear": 0.0,
+    "angular": 0.0,
+    "distance": 0.0,
+    "angle": 0.0,
+    "stopped": false
+  },
+  "passed": true
+}

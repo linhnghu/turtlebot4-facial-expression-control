@@ -1,0 +1,163 @@
+[
+  {
+    "check": "odometry_and_controller_ready",
+    "passed": true
+  },
+  {
+    "check": "neutral_zero",
+    "passed": true
+  },
+  {
+    "check": "happy_cmd_vel",
+    "passed": true,
+    "linear": 0.1,
+    "angular": 0.45
+  },
+  {
+    "check": "happy_completed",
+    "passed": true,
+    "status": {
+      "action": null,
+      "reason": "completed",
+      "linear": 0.0,
+      "angular": 0.0,
+      "distance": 0.253793731471862,
+      "angle": 1.1539597491757925,
+      "stopped": false
+    }
+  },
+  {
+    "check": "happy_physical_odometry",
+    "passed": true,
+    "travel": 0.24750163414900608,
+    "turn": 1.1812499991720533
+  },
+  {
+    "check": "happy_does_not_repeat",
+    "passed": true
+  },
+  {
+    "check": "sad_cmd_vel",
+    "passed": true,
+    "linear": 0.1,
+    "angular": -0.45
+  },
+  {
+    "check": "sad_completed",
+    "passed": true,
+    "status": {
+      "action": null,
+      "reason": "completed",
+      "linear": 0.0,
+      "angular": 0.0,
+      "distance": 0.2663937030065019,
+      "angle": -1.210659749097334,
+      "stopped": false
+    }
+  },
+  {
+    "check": "sad_physical_odometry",
+    "passed": true,
+    "travel": 0.2561529606438697,
+    "turn": -1.2284999990957526
+  },
+  {
+    "check": "sad_does_not_repeat",
+    "passed": true
+  },
+  {
+    "check": "angry_cmd_vel",
+    "passed": true,
+    "linear": -0.1,
+    "angular": 0.0
+  },
+  {
+    "check": "angry_completed",
+    "passed": true,
+    "status": {
+      "action": null,
+      "reason": "completed",
+      "linear": 0.0,
+      "angular": 0.0,
+      "distance": 0.12029429998395878,
+      "angle": -8.941203333279191e-11,
+      "stopped": false
+    }
+  },
+  {
+    "check": "angry_physical_odometry",
+    "passed": true,
+    "travel": 0.1274999999882797,
+    "turn": -9.834558167831631e-11
+  },
+  {
+    "check": "angry_does_not_repeat",
+    "passed": true
+  },
+  {
+    "check": "fear_cmd_vel",
+    "passed": true,
+    "linear": 0.1,
+    "angular": 0.0
+  },
+  {
+    "check": "fear_completed",
+    "passed": true,
+    "status": {
+      "action": null,
+      "reason": "completed",
+      "linear": 0.0,
+      "angular": 0.0,
+      "distance": 0.2006942999771836,
+      "angle": 1.463358531572645e-10,
+      "stopped": false
+    }
+  },
+  {
+    "check": "fear_physical_odometry",
+    "passed": true,
+    "travel": 0.20759999998151166,
+    "turn": 1.5520722901340989e-10
+  },
+  {
+    "check": "fear_does_not_repeat",
+    "passed": true
+  },
+  {
+    "check": "surprise_cmd_vel",
+    "passed": true,
+    "linear": 0.0,
+    "angular": 0.45
+  },
+  {
+    "check": "surprise_completed",
+    "passed": true,
+    "status": {
+      "action": null,
+      "reason": "completed",
+      "linear": 0.0,
+      "angular": 0.0,
+      "distance": 5.7849580486021894e-11,
+      "angle": 6.243459744867999,
+      "stopped": false
+    }
+  },
+  {
+    "check": "surprise_physical_odometry",
+    "passed": true,
+    "travel": 5.509022361303188e-12,
+    "turn": 6.2653499948592595
+  },
+  {
+    "check": "surprise_does_not_repeat",
+    "passed": true
+  },
+  {
+    "check": "no_face_stops",
+    "passed": true
+  },
+  {
+    "check": "camera_result_timeout_stops",
+    "passed": true
+  }
+]

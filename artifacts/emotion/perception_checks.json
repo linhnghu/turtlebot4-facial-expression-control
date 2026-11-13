@@ -1,0 +1,87 @@
+[
+  {
+    "check": "blank_image_no_face",
+    "passed": true,
+    "emotion": "unknown",
+    "confidence": 0.0,
+    "faces": 0,
+    "captured_at": 2173.337998771,
+    "region": null,
+    "inference_seconds": 0.09042353499989986
+  },
+  {
+    "check": "single_face_inference",
+    "passed": true,
+    "emotion": "happy",
+    "confidence": 0.9926499123960681,
+    "faces": 1,
+    "captured_at": 2173.433989646,
+    "region": {
+      "x": 176,
+      "y": 66,
+      "w": 97,
+      "h": 97
+    },
+    "inference_seconds": 0.18793530599987207
+  },
+  {
+    "check": "multiple_faces_inhibited",
+    "passed": true,
+    "emotion": "unknown",
+    "confidence": 0.0,
+    "faces": 2,
+    "captured_at": 2173.622161471,
+    "region": null,
+    "inference_seconds": 0.5397593060001782
+  },
+  {
+    "check": "webcam_frame_0",
+    "passed": true,
+    "emotion": "unknown",
+    "confidence": 0.0,
+    "faces": 0,
+    "captured_at": 2174.734026506,
+    "region": null,
+    "inference_seconds": 0.040055448999737564
+  },
+  {
+    "check": "webcam_frame_1",
+    "passed": true,
+    "emotion": "unknown",
+    "confidence": 0.0,
+    "faces": 0,
+    "captured_at": 2174.861784184,
+    "region": null,
+    "inference_seconds": 0.04828324699974473
+  },
+  {
+    "check": "webcam_frame_2",
+    "passed": true,
+    "emotion": "unknown",
+    "confidence": 0.0,
+    "faces": 0,
+    "captured_at": 2174.985733178,
+    "region": null,
+    "inference_seconds": 0.04573751499992795
+  },
+  {
+    "check": "webcam_frame_3",
+    "passed": true,
+    "emotion": "unknown",
+    "confidence": 0.0,
+    "faces": 0,
+    "captured_at": 2175.109825424,
+    "region": null,
+    "inference_seconds": 0.047411338000074466
+  },
+  {
+    "check": "webcam_frame_4",
+    "passed": true,
+    "emotion": "unknown",
+    "confidence": 0.0,
+    "faces": 0,
+    "captured_at": 2175.233739615,
+    "region": null,
+    "inference_seconds": 0.043460335999952804
+  }
+]

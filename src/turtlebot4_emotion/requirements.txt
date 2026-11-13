@@ -1,0 +1,8 @@
+# Python 3.10 / Ubuntu 22.04 / ROS 2 Humble. Separate venv protects ROS NumPy.
+numpy==1.24.4
+opencv-python==4.10.0.84
+deepface==0.0.93
+tensorflow==2.15.1
+tf-keras==2.15.1
+mtcnn==0.1.1
+retina-face==0.0.17
